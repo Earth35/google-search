@@ -1,0 +1,149 @@
+.content {
+	position: relative;
+}
+
+.nav_top {
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 60px;
+	line-height: 40px;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.nav_inner {
+	position: absolute;
+	width: 150px;
+	display: flex;
+	display: -webkit-flex;
+	padding: 0 30px;
+	top: 15px;
+	right: 0;
+	justify-content: space-between;
+}
+
+.navi_login {
+	width: 95px;
+	height: 30px;
+	background-color: #4285f4;
+	border-radius: 2px;
+	font-family: arial, sans-serif;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 13px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.navi_login:hover {
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.navi_button {
+	font-family: arial, sans-serif;
+	text-decoration: none;
+	color: #757575;
+	font-size: 13px;
+	padding: 8px 0;
+	height: 13px;
+	width: auto;
+}
+
+.navi_button:hover {
+	text-decoration: underline;
+}
+
+#uslugi {
+	padding: 0;
+}
+
+.nav_inner_logo {
+	display: block;
+	position: absolute;
+	top: 13px;
+	margin: 0 13px;
+}
+
+.nav_inner_search_container {
+	display: block;
+	position: relative;
+	top: 10px;
+	margin: 0 130px;
+	/* background-color: blue; /* temporary */ */
+	height: 38px;
+	width: 46%;
+}
+
+.search_container {
+	position: relative;
+	display: inline-block;
+	width: 586px;
+	height: 36px;
+	margin: 0;
+	border: 1px solid #d9d9d9;
+	background-color: #ffffff;
+}
+
+.searchbox {
+	display: inline-block;
+	position: absolute;
+	width:	500px;
+	height:	26px;
+	border: none;
+	padding: 5px 10px 0;
+	font-size: 16px;
+}
+
+.searchbox:focus {
+	outline: none;
+}
+
+.search_container:hover {
+	border: 1px solid #C4BDBD;
+}
+
+.keyboard {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 40px;
+}
+
+.kboard {
+	display: block;
+	margin: auto;
+	padding: 36% 0;
+}
+
+.search_icon {
+	position: absolute;
+	display: inline-block;
+	height: 36px;
+	width: 36px;
+	background-image: url(../img/mag_glass.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #4285f4;
+	border: 1px solid #4285f4;
+}
+
+.search_icon:hover {
+	background-color: #3b78e7;
+	border: 1px solid #3b78e7;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	color: #222222;
+}
+
+.submit {
+	position: absolute;
+	display: inline-block;
+	background-color: rgba(0,0,0,0);
+	height: 36px;
+	width: 36px;
+	border: none;
+}
