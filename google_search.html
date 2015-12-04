@@ -8,6 +8,7 @@
 	</head>
 		<div class="content">
 			<div class="nav_top">
+				<!-- Topmost navigation bar (logo, search box, Gmail... -->
 				<div class="nav_inner">
 					<a href="https://www.google.pl/intl/pl/options/" class="navi_button" id="uslugi"><img src="img/icon.png"/></a>
 					<a href="https://accounts.google.com/ServiceLogin?hl=pl&passive=true&continue=https://www.google.pl/%3Fgws_rd%3Dssl" class="navi_login">Zaloguj się</a>
@@ -20,30 +21,64 @@
 						<div class="search_container">
 							<input class="searchbox" type="text" value="dictionary"/>
 							<div class="keyboard">
-								<a href="#">	<!-- Utterly pointless, but why the hell not -->
+								<a href="#">	<!-- Does nothing, but makes it look interactive -->
 									<img class="kboard" src="img/kboard.gif" alt="Keyboard"/>
 								</a>
 							</div>
 						</div>			
 						<div class="search_icon">
-							<input type="submit" class="submit" value=""/>
+							<input type="submit" class="submit" value=""/>	<!-- Inactive -->
 						</div>
 					</div>
 				</form>
 			</div>
 			<div class="nav_top2">
-				
+			<!-- Lower navigation bar - tabbed Google services (Search, Images, Maps...) -->
+				<div class="services">
+					<div id="active_service">
+						<a href="#" class="serv_button" id="active_button">Internet</a>
+					</div>
+					<div>
+						<a href="#" class="serv_button">Grafika</a>
+					</div>
+					<div>	
+						<a href="#" class="serv_button">Filmy</a>
+					</div>
+					<div>
+						<a href="#" class="serv_button">Książki</a>
+					</div>
+					<div>
+						<a href="#" class="serv_button">Aplikacje</a>
+					</div>
+					<div>
+						<a href="#" class="serv_button">Więcej<div class="down_arrow"></div></a>
+					</div>
+					<div class="search_tool">
+						<a href="#" class="serv_button" id="spec">Narzędzie wyszukiwania</a>
+					</div>
+				</div>
+				<div class="settings">
+					<a href="#" class="gear"><img class="gear_img" src="img/gear.png" alt="Settings"/></a>
+				</div>
+			</div>
+			<div class="result_stat">
+			<!-- Result statistics -->
+				<p class="stat">Około 496 000 000 wyników (0,27 s)</p>
 			</div>
 			<div class="search_content">
+				<!-- Search results -->
 				
 			</div>
 			<div class="pagelist">
+				<!-- Other pages -->
 				
 			</div>
 			<div class="footer_loc">
+				<!-- Location info -->
 				
 			</div>
 			<div class="footer_bottom">
+				<!-- Footer -->
 				
 			</div>
 		</div>
